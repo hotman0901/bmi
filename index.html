@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="header">
+            <div class="log">
+                <h1>
+            		<a href="index.html">BMI</a>
+            	</h1>
+            </div>
+            <div class="text-area">
+                <label class="h4">身高 cm</label>
+                <input type="number" name="tall" id="tall" class="tall h3" placeholder="請輸入身高">
+                <label class="h4">體重 kg</label>
+                <input type="number" name="weight" id="weight" class="weight h3" placeholder="請輸入體重">
+                <div class="rest-btn" id="clear-btn">清除BMI紀錄</div>
+                <div class="rest-btn" id="rest-btn">重新輸入</div>
+            </div>
+            <div class="" id="result-area">
+                <div class="result">
+                    <div class="result-btn h3" id="result-btn">看結果</div>
+                    <div class="result-show">
+                        <span class="result-num">20.90</span>
+                        <span class="h5 result-bmi">BMI</span>
+                    </div>
+                </div>
+                <span class="result-word">過重過重</span>
+                <div class="icon-loop"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="content" style="height: 380px;overflow-y: auto;">
+            <h3 class="h3">BMI 紀錄</h3>
+            <!-- 渲染畫面 -->
+            <ul class="render-bmi">
+                <!-- <li>
+                    <div class="bmi-border-1"></div>
+                    <div class="bmi-bar">
+                        <span class="bmi-index-1">理想理想</span>
+                        <span class="bmi-index-2-1 h6">BMI</span>
+                        <span class="bmi-index-3">20.90</span>
+                        <span class="bmi-index-4 h6">weight</span>
+                        <span class="bmi-index-5">70KG</span>
+                        <span class="bmi-index-6 h6">height</span>
+                        <span class="bmi-index-7">180cm</span>
+                        <span class="bmi-index-8 h6">06-19-2017</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <div class="bmi-border-2"></div>
+                    <div class="bmi-bar">
+                        <span class="bmi-index-1">理想</span>
+                        <span class="bmi-index-2 h6">BMI</span>
+                        <span class="bmi-index-3">20.90</span>
+                        <span class="bmi-index-4 h6">weight</span>
+                        <span class="bmi-index-5">70KG</span>
+                        <span class="bmi-index-6 h6">height</span>
+                        <span class="bmi-index-7">180cm</span>
+                        <span class="bmi-index-8 h6">06-19-2017</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="footer">
+            <img src="img/BMICLogo-gray.png">
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
